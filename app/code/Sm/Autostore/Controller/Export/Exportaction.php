@@ -40,7 +40,7 @@ class Exportaction extends \Magento\Framework\App\Action\Action {
 		$this->blockFactory = $blockFactory;
 		$this->Generator = $Generator;
         $this->_formKeyValidator = $formKeyValidator;
-		parent::__construct($context, $eavConfig);
+		parent::__construct($context);
 	}
 
 	/**
