@@ -115,6 +115,7 @@ class Recent extends \Magefan\Blog\Block\Post\PostList\AbstractList implements \
         }
     }
 
+    
     /**
      * Retrieve category instance
      *
